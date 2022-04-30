@@ -7,11 +7,9 @@
         <artifactId>javaLearnCode</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>com.learnCode.lh</groupId>
-    <artifactId>algorithm</artifactId>
+    <artifactId>springBoot</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 

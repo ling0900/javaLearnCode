@@ -3,7 +3,7 @@ package com.algorithm.leetCode.mergeSort;
 /**
  *@Author: lh
  *@CreateTime: 2022-04-28  21:38
- *@Description: µÈ²îÊıÁĞÇóºÍµÄ¸´ÔÓ¶È Ö±½Ó Ìõ¼ş·´ÉäÊÇ N¡­¡­
+ *@Description: ç­‰å·®æ•°åˆ—æ±‚å’Œçš„å¤æ‚åº¦ ç›´æ¥ æ¡ä»¶åå°„æ˜¯ Nâ€¦â€¦
  *@Version: 1.0
  */
 public class SolutionCountRangeSum {
@@ -14,10 +14,10 @@ public class SolutionCountRangeSum {
 	
 	
 	/**
-	 * @author£º lh
-	 * @date£º 2022/4/29 14:41
-	 * @description£º ·µ»ØS(i, j)
-	 * @modified By£º
+	 * @authorï¼š lh
+	 * @dateï¼š 2022/4/29 14:41
+	 * @descriptionï¼š è¿”å›S(i, j)
+	 * @modified Byï¼š
 	 * @version:
 	 */
 	public int sumSij(int i, int j, int[] nums) {
@@ -31,10 +31,10 @@ public class SolutionCountRangeSum {
 	}
 	
 	/**
-	 * @author£º lh
-	 * @date£º 2022/4/29 14:36
-	 * @description£º Çó S(0,j),¿ÉÒÔ¿´×öÊÇS(i)¡£
-	 * @modified By£º
+	 * @authorï¼š lh
+	 * @dateï¼š 2022/4/29 14:36
+	 * @descriptionï¼š æ±‚ S(0,j),å¯ä»¥çœ‹åšæ˜¯S(i)ã€‚
+	 * @modified Byï¼š
 	 * @version:
 	 */
 	public int sumSi(int[] nums, int i) {
@@ -58,10 +58,10 @@ public class SolutionCountRangeSum {
 	}
 	
 	/**
-	 * @author£º lh
-	 * @date£º 2022/4/29 14:36
-	 * @description£º Çó S(0,j),·Åµ½Ò»¸öÊı×éÄÚ¡£
-	 * @modified By£º
+	 * @authorï¼š lh
+	 * @dateï¼š 2022/4/29 14:36
+	 * @descriptionï¼š æ±‚ S(0,j),æ”¾åˆ°ä¸€ä¸ªæ•°ç»„å†…ã€‚
+	 * @modified Byï¼š
 	 * @version:
 	 */
 	public int[] sumSi(int[] nums) {
