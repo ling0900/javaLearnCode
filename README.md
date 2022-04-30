@@ -13,3 +13,17 @@ git add .	-- 注意最后一个点，重新加入git
 git commit -m "update gitignore" -- 提交更新.ignore文件
 ```
 
+
+# 学习链接========================
+
+①
+https://oi-wiki.org/
+
+② LeetCode
+https://leetcode-cn.com/problemset/all/
+
+③ github仓库链接
+https://github.com/ling0900
+
+④
+https://www.luogu.com.cn/
