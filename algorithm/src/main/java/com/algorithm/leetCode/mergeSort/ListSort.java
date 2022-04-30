@@ -25,28 +25,28 @@ public class ListSort {
 		}
 	}
 	
-	//1.½«Õû¸öÁ´±í¶Ô°ë·ÖÎª×óÓÒ
+	//1.å°†æ•´ä¸ªé“¾è¡¨å¯¹åŠåˆ†ä¸ºå·¦å³
 	public ListNode divSort(ListNode head) {
 		if (head.next == null) {
 			return head;
 		}
 		
-		// ×¼±¸¶Ï¿ªµÄ½Úµã
+		// å‡†å¤‡æ–­å¼€çš„èŠ‚ç‚¹
 		ListNode p = head;
-		// ·ÖºÃµÄÓÒ±ß½Úµã
+		// åˆ†å¥½çš„å³è¾¹èŠ‚ç‚¹
 		ListNode R = head;
-		// ÁÙÊ±½Úµã£¬¾ÍÊÇ¸ö¿ìÖ¸Õë¡£
+		// ä¸´æ—¶èŠ‚ç‚¹ï¼Œå°±æ˜¯ä¸ªå¿«æŒ‡é’ˆã€‚
 		ListNode temp = head;
 		
-		// ×¢ÒâÕâÀïµÄ±ß½çÎÊÌâ
+		// æ³¨æ„è¿™é‡Œçš„è¾¹ç•Œé—®é¢˜
 		while (temp !=null && temp.next != null) {
-			// RÃ¿´ÎÒÆ¶¯Ò»¸öÎ»ÖÃ£¬temp¶¯Á½¸ö£¬µ½Í·ºó£¬R¾ÍÀ´µ½ÁËÓÒ±ß·Ö×éµÄÍ·½Úµã¡£
+			// Ræ¯æ¬¡ç§»åŠ¨ä¸€ä¸ªä½ç½®ï¼ŒtempåŠ¨ä¸¤ä¸ªï¼Œåˆ°å¤´åï¼ŒRå°±æ¥åˆ°äº†å³è¾¹åˆ†ç»„çš„å¤´èŠ‚ç‚¹ã€‚
 			p = R;
 			R = R.next;
 			temp = temp.next.next;
 		}
 		
-		//Òª¶Ï¿ª£¬Êı×é²»ĞèÒª¶Ï¿ª£¬Á´±íĞèÒª¶Ï¿ª¡£
+		//è¦æ–­å¼€ï¼Œæ•°ç»„ä¸éœ€è¦æ–­å¼€ï¼Œé“¾è¡¨éœ€è¦æ–­å¼€ã€‚
 		p.next = null;
 		ListNode LNode = divSort(head);
 		ListNode RNode = divSort(R);
@@ -60,19 +60,19 @@ public class ListSort {
 		if(L == R) {return L;}
 		
 		
-		// ¶¨ÒåÒ»¸önode£¬ÓÃÓÚ·µ»Ø×îºóµÄ½á¹û
+		// å®šä¹‰ä¸€ä¸ªnodeï¼Œç”¨äºè¿”å›æœ€åçš„ç»“æœ
 		// ListNode resultHead = null;
 		ListNode resNodeHead = new ListNode(1);
 		
-		// ¶¨Òå¸¨Öú½Úµã
+		// å®šä¹‰è¾…åŠ©èŠ‚ç‚¹
 		ListNode temp = resNodeHead;
 		
 		
 		while (L != null && R != null) {
 			if (L.val <= R.val) {
-				// Ö¸ÕëµÄÏÂ¸önodeÖ¸ÏòL
+				// æŒ‡é’ˆçš„ä¸‹ä¸ªnodeæŒ‡å‘L
 				temp.next = L;
-				// ÒÆ¶¯µ½×Ô¼ºµÄÏÂÒ»¸önode£¡
+				// ç§»åŠ¨åˆ°è‡ªå·±çš„ä¸‹ä¸€ä¸ªnodeï¼
 				// temp = L;
 				temp = temp.next;
 				L = L.next;
