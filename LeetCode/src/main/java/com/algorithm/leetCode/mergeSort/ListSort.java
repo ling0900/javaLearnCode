@@ -1,4 +1,4 @@
-package com.algorithm.mergeSort;
+package com.algorithm.leetCode.mergeSort;
 
 /**
  *@Author: lh
