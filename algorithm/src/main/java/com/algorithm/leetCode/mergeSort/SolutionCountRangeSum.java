@@ -1,7 +1,7 @@
 package com.algorithm.leetCode.mergeSort;
 
 /**
- *@Author: lh
+ *@author: lh
  *@CreateTime: 2022-04-28  21:38
  *@Description: 等差数列求和的复杂度 直接 条件反射是 N……
  *@Version: 1.0
@@ -14,7 +14,7 @@ public class SolutionCountRangeSum {
 	
 	
 	/**
-	 * @author： lh
+	 * @Author： lh
 	 * @date： 2022/4/29 14:41
 	 * @description： 返回S(i, j)
 	 * @modified By：
