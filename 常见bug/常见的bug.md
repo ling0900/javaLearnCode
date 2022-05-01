@@ -8,3 +8,14 @@ https://blog.csdn.net/weixin_44109652/article/details/122860081?utm_medium=distr
 
 ---
 
+
+---
+解决：14:29:42.546: [javaLearnCode] git -c credential.helper= -c core.quotepath=false -c log.showSignature=false push --progress --porcelain origin refs/heads/main:main --follow-tags
+XML error: no element found
+error: no DAV locking support on https://github.com/ling0900/javaLearnCode.git/
+fatal: git-http-push failed
+error: failed to push some refs to 'https://github.com/ling0900/javaLearnCode.git'
+方案：
+
+
+git config --global --unset http.proxy
