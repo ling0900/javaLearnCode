@@ -24,7 +24,10 @@ target/
 *.iws
 *.iml
 *.ipr
+*.mf
+*.MF
 LeetCode/src/main/java/com/zuo/source
+out/
 
 ### JRebel ###
 rebel.xml
